@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>commandLine</artifactId>
+	<packaging>jar</packaging>
+	<name>Strongly-typed Javascript:Generator</name>
+
+	<parent>
+		<groupId>org.st-js</groupId>
+		<artifactId>stjs</artifactId>
+		<version>1.2.2-SNAPSHOT</version>
+	</parent>
+
+	<properties>
+	</properties>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>org.st-js</groupId>
+			<artifactId>generator</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.st-js</groupId>
+			<artifactId>js-lib</artifactId>
+			<version>${project.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.st-js</groupId>
+			<artifactId>jquery</artifactId>
+			<version>${project.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		
+	</dependencies>
+
+</project>
